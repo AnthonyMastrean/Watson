@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watson", "Watson\Watson.csproj", "{1AF342DD-2FE6-40BB-BA6C-C4B77A6247A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watson.Specs", "Watson.Specs\Watson.Specs.csproj", "{AD31BECE-D24B-44DE-8DC5-FD0D0678D570}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF342DD-2FE6-40BB-BA6C-C4B77A6247A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF342DD-2FE6-40BB-BA6C-C4B77A6247A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF342DD-2FE6-40BB-BA6C-C4B77A6247A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF342DD-2FE6-40BB-BA6C-C4B77A6247A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD31BECE-D24B-44DE-8DC5-FD0D0678D570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD31BECE-D24B-44DE-8DC5-FD0D0678D570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD31BECE-D24B-44DE-8DC5-FD0D0678D570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD31BECE-D24B-44DE-8DC5-FD0D0678D570}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
