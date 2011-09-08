@@ -3,7 +3,7 @@
 
 Configure your desired custom performance counters at application startup or as part of a separate installation procedure.
 
-    new watson.FluentConfigurator()
+    new Watson.FluentConfigurator()
         .AddCategory("Watson.Example")
             .AddCounter("NumberOfThings")
             .AddCounter("AverageNumberOfThingsOverTime")
