@@ -1,7 +1,9 @@
 ﻿using System;
 using Machine.Specifications;
+using Watson.Internal;
+using Watson.Specs.BCL;
 
-namespace Watson.Specs
+namespace Watson.Specs.Internal
 {
     [Subject(typeof(PerformanceCounterMetadata))]
     public class When_making_a_new_counter_metadata_without_enough_names

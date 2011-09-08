@@ -1,4 +1,4 @@
-﻿namespace Watson
+﻿namespace Watson.Internal
 {
     public static class Separator
     {

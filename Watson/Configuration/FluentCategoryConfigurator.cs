@@ -7,11 +7,16 @@ namespace Watson.Configuration
         private readonly string _name;
         private readonly string _help;
         private readonly PerformanceCounterCategoryType _type;
-        private readonly CounterCreationDataCollection _counters = new CounterCreationDataCollection();
+        private readonly CounterCreationDataCollection _counters 
+            = new CounterCreationDataCollection();
 
         private readonly FluentConfigurator _parent;
 
-        public FluentCategoryConfigurator(string name, string help, PerformanceCounterCategoryType type, FluentConfigurator parent)
+        public FluentCategoryConfigurator(
+            string name, 
+            string help, 
+            PerformanceCounterCategoryType type, 
+            FluentConfigurator parent)
         {
             _name = name;
             _help = help;

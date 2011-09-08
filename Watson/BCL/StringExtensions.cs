@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Watson
+namespace Watson.BCL
 {
-    public static class StringExtensions
+    internal static class StringExtensions
     {
         public static string[] Split(this string value, char separator)
         {

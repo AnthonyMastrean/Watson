@@ -1,6 +1,6 @@
-﻿namespace Watson.Specs
+﻿namespace Watson.Specs.BCL
 {
-    public static class ObjectExtensions
+    internal static class ObjectExtensions
     {
         public static T As<T>(this object obj)
         {

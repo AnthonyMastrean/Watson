@@ -43,12 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyCleanup.cs" />
-    <Compile Include="ObjectExtensions.cs" />
+    <Compile Include="BCL\ObjectExtensions.cs" />
     <Compile Include="Configuration\When_configuring_a_new_category_with_counters.cs" />
-    <Compile Include="When_getting_a_counter_for_a_new_category.cs" />
-    <Compile Include="When_making_a_new_counter_metadata.cs" />
-    <Compile Include="When_making_a_new_counter_metadata_without_enough_names.cs" />
-    <Compile Include="When_making_a_really_bad_counter_metadata.cs" />
+    <Compile Include="Internal\When_making_a_new_counter_metadata.cs" />
+    <Compile Include="Internal\When_making_a_new_counter_metadata_without_enough_names.cs" />
+    <Compile Include="Internal\When_making_a_really_bad_counter_metadata.cs" />
     <Compile Include="When_getting_a_performance_counter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

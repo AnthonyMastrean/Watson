@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
+using Watson.BCL;
 
-namespace Watson
+namespace Watson.Internal
 {
     public class PerformanceCounterMetadata
     {

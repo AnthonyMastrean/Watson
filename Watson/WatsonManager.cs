@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using Watson.Internal;
 
 namespace Watson
 {
@@ -8,7 +9,10 @@ namespace Watson
         {
             var metadata = new PerformanceCounterMetadata(name);
 
-            return new PerformanceCounter(metadata.CategoryName, metadata.CounterName);
+            return new PerformanceCounter(
+                metadata.CategoryName, 
+                metadata.CounterName,
+                false);
         }
     }
 }
