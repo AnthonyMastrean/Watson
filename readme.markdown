@@ -3,7 +3,8 @@
 
 Configure your desired custom performance counters at application startup or as part of a separate installation procedure.
 
-    new Watson.FluentConfigurator()
+    new Watson
+        .FluentConfigurator()
         .AddCategory("Watson.Example")
             .AddCounter("NumberOfThings")
             .AddCounter("AverageNumberOfThingsOverTime")
@@ -14,4 +15,4 @@ Configure your desired custom performance counters at application startup or as 
 Then, in your application classes that are publishing performance statistics, get a performance counter out and use it!
 
     private static readonly PerformanceCounter _counter = WatsonManager.GetPerformanceCounter("Watson.Example.NumberOfThings");
-    private static readonly PerformanceCounter _avgCounter = WatsonManager.GetPerformanceCounter("Watson.Example.AverageNumerOfThingsOverTime");
+    private static readonly PerformanceCounter _avgCounter = WatsonManager.GetPerformanceCounter("Watson.Example.AverageNumberOfThingsOverTime");
